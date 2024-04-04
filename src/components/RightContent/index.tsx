@@ -28,8 +28,8 @@ const GlobalHeaderRight: React.FC = () => {
             value: 'umi ui',
           },
           {
-            label: <a href="next.ant.design">鱼皮接口</a>,
-            value: '鱼皮接口',
+            label: <a href="next.ant.design">无敌鸭接口</a>,
+            value: '无敌鸭接口',
           },
           {
             label: <a href="https://protable.ant.design/">Pro Table</a>,
@@ -40,9 +40,9 @@ const GlobalHeaderRight: React.FC = () => {
             value: 'Pro Layout',
           },
         ]}
-        // onSearch={value => {
-        //   console.log('input', value);
-        // }}
+      // onSearch={value => {
+      //   console.log('input', value);
+      // }}
       />
       <span
         className={styles.action}
